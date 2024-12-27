@@ -1,0 +1,1 @@
+This bug occurs when using the Expo Constants API to access the device's unique ID.  The `Constants.deviceId` value may unexpectedly return `null` or an empty string, even on devices where it should be available. This inconsistency can lead to issues with user identification, data persistence, and analytics.
